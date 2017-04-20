@@ -37,7 +37,7 @@ Then run the following:
    those tools, and may leave your system in an inconsistent state.
 
 get-pip.py will also install :ref:`pypug:setuptools` [3]_ and :ref:`pypug:wheel`,
-if they're not already. :ref:`pypug:setuptools` is required to install
+if they're not already installed. :ref:`pypug:setuptools` is required to install
 :term:`source distributions <pypug:Source Distribution (or "sdist")>`.  Both are
 required to be able to build a :ref:`Wheel cache` (which improves installation
 speed), although neither are required to install pre-built :term:`wheels
